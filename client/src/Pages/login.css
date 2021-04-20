@@ -1,0 +1,82 @@
+.login{
+    width: 25%;
+    margin: 20px auto 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+  
+  .login h1{
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .login p{
+    text-align: right;
+  }
+  
+  .login form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login form label{
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .login form input{
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .login form button[type="submit"]{
+    background-color: rgb(64, 64, 143);
+    color: white;
+    font: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+  }
+
+  @media screen and (max-width: 1168px){
+
+    .container , .signup , .login{
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+  }
+  
+  @media screen and (max-width: 968px){
+  
+    .signup , .login{
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+  }
+  
+  @media screen and (max-width: 768px){
+  
+    .signup , .login{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+  }
+  
+  @media screen and (max-width: 568px){
+  
+    .signup , .login{
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+  }
