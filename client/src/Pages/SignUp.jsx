@@ -77,6 +77,10 @@ const SignUp = ({ userSignup, auth, clearErrors, clearMessages }) => {
                             value={password2}
                         />
                     </label>
+                    <label>
+                        I accept all terms and conditions:
+                        <input type="checkbox" rqeuir value={true} />
+                    </label>
                     <button type="submit">{auth.isLoading ? <Loader
                         type="Puff"
                         color="#00BFFF"
