@@ -7,8 +7,7 @@ const mongoose = require('mongoose');
 
 //database connection
 mongoose
-    .connect(
-        'mongodb+srv://admin:admin@cluster0.kemen.mongodb.net/task?retryWrites=true&w=majority', {
+    .connect(process.env.MONGODB_URL, {
         useNewUrlParser: true,
         useCreateIndex: true,
         useFindAndModify: true,
